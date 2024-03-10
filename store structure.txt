@@ -1,0 +1,13 @@
+yarn hardhat make-deal-proposal --network localnet `
+--contract 0xf8bDE33a386B85085B3372C0e0AC817b92C9B866 `
+--piece-cid baga6ea4seaqdowe4dpus73nad4ubiexoitdwzna6lmkzdifv5sikbeolvb2wedy `
+--piece-size 1048576 --verified-deal false `
+--label bafybeidzrursprsjabx5oubmhwzeoiyuektml73gkgioxofagpq4jekyuq `
+--start-epoch 2000 --end-epoch 100000 `
+--storage-price-per-epoch 0 --provider-collateral 0 `
+--client-collateral 0 --extra-params-version 1 `
+--location-ref "https://data-depot.lighthouse.storage/api/download/download_car?fileId=dbd0f04c-f41c-41a0-8563-f6b2adee75f9.car" `
+--car-size 598407 --skip-ipni-announce false --remove-unsealed-copy false
+
+
+------
